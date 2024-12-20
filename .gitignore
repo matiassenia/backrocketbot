@@ -1,0 +1,7 @@
+node_modules
+# Keep environment variables out of version control
+.env
+Visual Studio Code.app/
+*.png
+*.mov
+*.DS_Store
