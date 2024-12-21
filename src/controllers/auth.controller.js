@@ -4,7 +4,7 @@ const jwt = require('jsonwebtoken');
 const { PrismaClient } = require('@prisma/client');
 const prisma = new PrismaClient();
 
-//Controlador para resgistrar un nuevo usuario
+//Controlador para registrar un nuevo usuario
 const register = async (req, res) => {
     const { email, password, name } = req.body;
     try {
@@ -50,7 +50,7 @@ const profile = async (req, res) => {
     try {
         //Obtiene al user autenticado desde la db
         const user = await prisma.user.findUnique({ where: { id: req.user.id } });
-        
+
         //Responde con los datos del user sin la cntraseña
         res.json({ user });
     } catch (error) {
