@@ -61,11 +61,11 @@ El servidor estará disponible en `http://localhost:3000`.
   {
       "email": "matias@rocketbot.com",
       "password": "qwerty1234",
-      "name": "Matias"
+      "name": "matiaspararocketbot"
   }
   ```
 
-![Prueba](./images/postmanregisterok.jpg)
+![Registro con éxito](./images/registerok.jpg)
 
 
 - **Respuesta de Éxito**:
@@ -75,7 +75,7 @@ El servidor estará disponible en `http://localhost:3000`.
       "user": {
           "id": 1,
           "email": "matias@rocketbot.com",
-          "name": "Matias"
+          "name": "matiaspararocketbot"
       }
   }
   ```
