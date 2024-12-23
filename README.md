@@ -65,6 +65,9 @@ El servidor estará disponible en `http://localhost:3000`.
   }
   ```
 
+![Prueba](./images/postmanregisterok.jpg)
+
+
 - **Respuesta de Éxito**:
   ```json
   {
@@ -76,8 +79,6 @@ El servidor estará disponible en `http://localhost:3000`.
       }
   }
   ```
-![Registro de Usuario ](./assets/registerok.png)
-
 
 ### **2. Inicio de Sesión**
 
