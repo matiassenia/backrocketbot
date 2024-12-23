@@ -48,6 +48,7 @@ $ npm run dev
 
 El servidor estará disponible en `http://localhost:3000`.
 
+![Localhost3000](./images/apifuncionando.jpg)
 ---
 
 ## Endpoints
@@ -98,6 +99,7 @@ El servidor estará disponible en `http://localhost:3000`.
       "token": "eltoken"
   }
   ```
+![Loguin exitoso](./images/loginok.jpg)
 
 ### **3. Perfil de Usuario**
 
@@ -110,6 +112,9 @@ El servidor estará disponible en `http://localhost:3000`.
   Key: Authorization
   Value: Bearer <token> (reemplazar <token> con el token generado)
   ```
+
+![Profile](./images/profileok.jpg)
+
 
 ---
 
