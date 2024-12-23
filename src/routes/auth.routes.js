@@ -6,7 +6,7 @@ const { register, login, profile } = require('../controllers/auth.controller');
 const { authenticateToken } = require('../middlewares/auth.middleware');
 
 //Ruta de prueba de API
-router.get('/', (req, res) => res.send('API Matías funcionando 🚀'));
+router.get('/', (req, res) => res.send('API ROCKETBOT de Matías funcionando! 🚀'));
 //Rutas 
 router.post('/register', register);
 router.post('/login', login);

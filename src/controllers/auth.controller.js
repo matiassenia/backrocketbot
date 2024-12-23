@@ -35,7 +35,7 @@ const login = async (req, res) => {
         const validPassword = await bcrypt.compare(password, user.password);
         if (!validPassword) return res.status(401).json({ error: 'Contraseña incorrecta' });
         
-        //Genera el token JWT con una duración de 1 hora
+        //Genera el token JWT con una duración de 1 HORA
         const token = jwt.sign({ id: user.id }, process.env.JWT_SECRET, { expiresIn: '1h' });
         
         //Responde con el token generado
