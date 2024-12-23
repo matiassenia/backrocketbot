@@ -16,8 +16,13 @@ const register = async (req, res) => {
             data: { email, password: hashedPassword, name },
         });
 
+        // Excluye la contraseña antes de enviar la respuesta, muestra solo el nombre
+        const userWithoutData = {
+            name: user.name
+        }
+        
         //Msj y status correspondiente con el usuario creado
-        res.status(201).json({ message: 'Usuario creado con éxito', user });
+        res.status(201).json({ message: 'Usuario creado con éxito', user: userWithoutData });
     } catch (error) {
     res.status(400).json({ error: 'Error al registrar usuario' });
     } 
