@@ -121,10 +121,10 @@ El servidor estará disponible en `http://localhost:3000`.
 ## Scripts Disponibles
 
 ```bash
-# Inicia el servidor en modo desarrollo con nodemon
+# Iniciar el servidor en modo desarrollo con nodemon
 $ npm run dev
 
-# Inicia el servidor en modo producción
+# Iniciar el servidor en modo producción
 $ npm start
 ```
 
