@@ -20,7 +20,7 @@ Este proyecto implementa una API REST para la autenticación de usuarios, utiliz
 ## Prerrequisitos
 
 - **Node.js**: Versión 14.x o superior.
-- **Base de datos**: Configurada y accesible. Se utiliza SQLite para desarrollo; PostgreSQL o MySQL son recomendados para producción.
+- **Base de datos**: Se utiliza SQLite para desarrollo.
 
 ---
 
@@ -74,10 +74,10 @@ El servidor estará disponible en `http://localhost:3000`.
   {
       "message": "Usuario creado con éxito",
       "user": {
-          "id": 1,
-          "email": "matias@rocketbot.com",
-          "name": "matiaspararocketbot"
-      }
+        "id": 1,
+        "email": "matias@rocketbot.com",
+        "name": "matiaspararocketbot"
+        }
   }
   ```
 
